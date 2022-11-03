@@ -48,6 +48,7 @@
     "lint:package-json": "sort-package-json --check",
     "lint:prettier": "prettier --check ./**/*.{js,ts,md}",
     "lint:remark": "remark {.,.github}",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "devDependencies": {
